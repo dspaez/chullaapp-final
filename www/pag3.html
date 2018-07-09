@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <meta charset="utf-8">
+
+    <title>ARtourQuito</title>
+
+    <link rel="stylesheet" type="text/css" href="css/pag3.css"> <!--  Referencia a nuestra pagina de estilos -->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGDJI8eFDi3hvsasPHoGrk2aAaTQdNlNk&callback=initMap"> </script> <!--  Referencia al dcript para el Uso de Google Maps-->
+
+    <script src="jquery/jquery-1.11.1.min.js"> </script> <!--  Referencia de la libreria de jquery --> 
+
+    <script src="cordova.js"></script>
+
+    <script src="js/index2.js"> </script> <!--  Referencia de al script para usar Realidad Aumentada-->
+    
+  </head>
+  <body id="body">
+
+  <div id="elemento"></div>  
+
+    <div id="arView" >
+        <div class="arMessage">&uarr;<br>Incline hacia abajo o gire el dispositivo para ver todos los lugares</div>
+        <br>
+        <div class="arMessage">&larr; Mueva el dispositivo para encontrar los puntos de interes &rarr;</div>
+        <br>
+        <div id="direction"></div>
+        <br>
+        <div id="spot"></div>
+    </div>
+    <!--Div que contiene las instrucciones para visualizar los diferentes etiquetas a los monumentos-->
+
+    
+    <div id="topView">
+        <div class="navbar">
+            <div id="viewbtn" class="navbtn" onclick="toggleView()">Visualizar Mapa</div>    
+        </div>
+        <div class="listView ">
+            <div class="listItems"></div>
+        </div>
+        <div class="mapView">
+            <div id="map"></div>
+        </div>
+    </div>
+    <!--Div que enlista los diferentes monumentos y la pestaña que me habilitara el Mapa-->
+
+
+    <div id="debug">  
+        <div class="heading">Geolocation</div>
+        <div id="geolocation"></div>
+        <div class="heading">Compass</div>
+        <div id="compass"></div>
+        <div class="heading">Accelerometer</div>
+        <div id="accelerometer"></div>
+        <div class="heading">Log</div>
+        <div id="log"></div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <meta charset="utf-8">    
+
+    <title>ARtourQuito</title>
+
+    <link rel="stylesheet" href="jquery-mobile/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet"  href="css/pag1.css" type="text/css">
+ 
+
+
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/datos.js"></script>
+    
+
+
+    
+</head>
+
+<body>
+
+ 
+
+    <div class="navbar" id="divNombre">
+        <div id="nombre"></div><br>    
+    </div><br><br><br> 
+    <div id="canvas">
+        <canvas id="myCanvas" > 
+            <img id="outputImg" src="img/iglesiasantodomingo.jpg" class="corner iradius100 ishadow33" alt="" width="100%" height="100%" /><br>
+            <img id="marcador" src="img/mark.png">
+        </canvas> 
+
+    </div>
+
+    <img id="outputImg2" src="" align="center" alt="" width="100%" height="100%" />
+    
+    <div class="texto" id="divDescripcion" align="justify">
+        <p id="descripcion"></p>            
+    </div>
+
+    <!--Div que contiene el boton regresar-->
+    <div id="contenedorBtnVolver">
+        <a id="btnVolver" onclick="location='pag1.html'" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Regresar</a>
+    </div>
+
+    <script type="text/javascript">
+        
+        function completeScreen(){
+           var c = document.getElementById("myCanvas");
+           c.style.width = window.innerWidth + "px";
+           c.style.height = (window.innerWidth/1.6) + "px";
+             var ctx = c.getContext("2d");
+             var img = document.getElementById("outputImg");
+             ctx.drawImage(img,0,0);
+         }
+         completeScreen();
+         
+     </script>
+        
+
+</body>
+
+</html>

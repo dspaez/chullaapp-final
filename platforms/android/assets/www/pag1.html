@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <meta charset="utf-8">
+
+    <title>ARtourQuito</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet"> <!--  Referencia a la fuente de googlefonts -->
+    
+    <link rel="stylesheet" href="jquery-mobile/jquery.mobile-1.4.5.css"> <!--  Referencia la libreria de estilos de jquey-mobile-->
+
+    <link rel="stylesheet" href="css/pag1.css" type="text/css"> <!--  Referencia a nuestra pagina de estilos -->
+
+    <link href="textillate/animate.css" rel="stylesheet">
+    <!--  Referencia a la libreria de estilos textillate que es la que permite animar texto--> 
+
+
+    
+
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+    <!--  Referencia de la libreria de jquery y jquery-mobile -->
+
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <!--  Referencia a nuestro script el cual hace uso el API VISION de GOOGLE --> 
+
+
+    <script type="text/javascript" src="js/datos.js"></script> 
+     <!--  Referencia a nuestro Diccionario de Datos --> 
+
+    <script src="textillate/jquery.lettering.js"></script>
+    <script src="textillate/jquery.textillate.js"></script>
+    <!--  Referencia de la libreria textillate -->
+
+    
+    <script src="js/otrasFunciones.js"></script>
+    <!--  Referencia de nuestro script--> 
+
+</head>
+<body>
+
+    <div id="contenedorLogo">
+        <img id="logoSinFondo" src="img/logoSinFondo.png"/>  
+    </div>
+    <!--Div que contiene la imagen del logo-->
+
+    <div class="textoLogo" data-in-effect="flash">
+        <p>Bienvenidos </p>
+    </div>
+    <!--Div que contiene el Texto del Logo-->
+
+    <div class="textoLogo1" >
+        <p>ARtour Quito</p>
+    </div>
+    <!--Div que contiene el Texto del Logo-->
+
+    
+    <div id="contenedorBtnInicio">
+        <a id="btnInicio" href="#popupMenu" data-rel="popup" data-transition="flip" data-position-to="window" id="boton" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-icon-left ui-icon-camera">Inicio</a>
+    </div>
+    <!--Div que contiene el boton de Inicio, que me permite abrir un popUp-->
+
+    <div data-role="popup" id="popupMenu" data-theme="a" class="ui-corner-all">
+        <form>
+            <div data-role="controlgroup">
+                <a id="openCamera" href="pag2.html"  data-role="button" onclick="cameraTakePicture()">Tomar Foto
+                <a id="chooseFile" href="pag2.html" data-role="button" onclick="chooseFile()">Seleccionar Archivo</a>
+            </div>
+        </form>
+    </div>
+    <!--Div que contiene el PopUp con las opciones presentadas al pulsar el Boton Inicio-->
+
+    <div id="contenedorBtnRA">
+        <a id="btnRA" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-icon-left ui-icon-eye" onclick="location='pag3.html'">RA</a>
+    </div>
+     <!--Div que contiene el boton de Realidad Aumentada-->
+
+     <div id="contenedorBtnInfo">
+        <a id="btnInfo" onclick="location='pag4.html'" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-icon-left ui-icon-info">Info</a>
+    </div>
+    <!--Div que contiene el boton de Información-->
+
+
+    <div data-role="footer" id="piePagina"> 
+        <h4>Desarrollado por GalesoftEC</h4> 
+    </div> 
+    <!--Div que contiene el pie de Pagina-->
+</body>
+
+</html>

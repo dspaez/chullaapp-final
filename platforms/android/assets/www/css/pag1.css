@@ -1,0 +1,256 @@
+body {
+    background: url(../img/Fondo2.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+
+#contenedorLogo{
+	text-align: center;
+}
+
+
+#logoSinFondo{
+
+	max-width:100%;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+}
+
+.textoLogo{
+
+	text-align: center;
+	font-size: xx-large;
+	max-width:100%;
+	text-shadow: 5px 5px 5px #000000;
+	margin-left: -9px;
+	
+
+   font-family: 'Risque', cursive;
+   color: #F9FFF6;
+
+}
+
+.textoLogo1{
+
+	text-align: center;
+	font-size: xx-large;
+	max-width:100%;
+	height: 125px;
+	text-shadow: 5px 5px 5px #000000;
+
+   font-family: 'Risque', cursive;
+   color: #F9FFF6;
+
+}
+
+
+
+
+
+#contenedorBtnInicio {	
+	text-align: center;
+}
+
+#contenedorBtnInfo {	
+	text-align: center;
+	height:200px;  
+}
+
+#contenedorBtnRA{	
+	text-align: center;	
+	
+}
+
+
+#btnInicio {
+
+	background: transparent;
+    color: #F9FFF6;
+	font-size: large;
+
+	text-shadow: 5px 5px 5px #000000;
+
+
+	line-height: 20px;
+	height:20px;
+		
+	
+
+}
+
+#btnInicio:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+#btnInfo {	
+	background: transparent;
+    color: #F9FFF6;
+	font-size: large;
+
+	text-shadow: 5px 5px 5px #000000;
+
+	line-height: 20px;
+	height:20px;
+		
+ 
+}
+
+#btnInfo:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+#btnRA {	
+	background: transparent;
+    color: #F9FFF6;
+	font-size: large;
+
+	text-shadow: 5px 5px 5px #000000;
+
+	line-height: 20px;
+	height:20px;
+}
+
+#btnRA:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+#popupMenu {
+	background-color: #0d4c57;
+	border: none !important;
+}
+
+#openCamera{	
+	background: transparent;
+    color: #F9FFF6;
+	font-size: medium;
+}
+
+#openCamera:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+#chooseFile{	
+	background: transparent;
+    color: #F9FFF6;
+	font-size: medium;
+}
+
+#chooseFile:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+#piePagina {
+    background: transparent;
+    border: none !important;
+
+    font-size: smaller;
+    font-family: 'Risque', cursive;
+    color: #F9FFF6;
+}
+
+
+/*comienza estilos pag2.html*/
+
+
+#divNombre{
+	color: #105561;
+	text-shadow: 2px 2px 2px #97cdd7;
+	text-align: center;
+}
+#divDescripcion{
+	color: white;
+	text-shadow: 5px 5px 5px #000000;
+	
+}
+
+#descripcion{
+	border: white 2px solid;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	margin: 5px;
+	padding: 5px;
+}
+
+.navbar {
+	background-color:white;
+	height:40px;padding:10px;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	line-height:40px;
+	position: fixed;
+	width: 100%
+}
+
+/*#outputImg{
+	display: block;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px black;
+
+}*/
+#outputImg2{	
+	display: block;
+	border: white 2px solid;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px black;
+}
+/*#myCanvas{
+	display: block;
+	margin: 30px, 0px,5px,0px;
+	border-radius: 20px
+	box-shadow: 6px 6px 6px black;
+}*/
+
+#canvas{
+	border: white 2px solid;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	margin-bottom: 4px;
+	margin-top: 4px; 
+}
+
+#outputImg{
+	visibility: hidden;
+}
+
+#marcador{
+	visibility: hidden;
+}
+
+#contenedorBtnVolver {  
+    text-align: right;
+}
+
+
+#btnVolver {  
+    background: transparent;
+    color: #F9FFF6;
+    font-size: large;
+    text-shadow: 5px 5px 5px #000000;
+        
+ 
+}
+
+#btnVolver:hover {
+    background-color: #F9FFF6;
+    color: #0d4c57;
+}
+
+

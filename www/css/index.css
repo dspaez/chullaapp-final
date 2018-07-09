@@ -1,0 +1,51 @@
+body {
+    background: url(../img/Fondo1.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+
+#contenedorLogo{
+	text-align: center;
+}
+
+#logo{
+
+	max-width:100%;
+	width: 125px;
+   height: 125px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -124px;
+   margin-left: -62px;
+
+}
+
+.textoLogo{
+
+	text-align: center;
+	font-size: x-large;
+	max-width:100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: 10px;
+   margin-left: -60px;
+
+   font-family: 'Risque', cursive;
+   color: #F9FFF6;
+
+}
+
+
+

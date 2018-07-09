@@ -1,0 +1,51 @@
+{
+  "_from": "cordova-plugin-ezar-videooverlay",
+  "_id": "cordova-plugin-ezar-videooverlay@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-3iz9y60Q9kz6ooOJQHJ5AsJyG4NZtMSldOPTq4ItArywfV3tX6naaBmqSL6u7+7hgLgA5fbelGj+ulczHx920A==",
+  "_location": "/cordova-plugin-ezar-videooverlay",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-ezar-videooverlay",
+    "name": "cordova-plugin-ezar-videooverlay",
+    "escapedName": "cordova-plugin-ezar-videooverlay",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ezar-videooverlay/-/cordova-plugin-ezar-videooverlay-1.0.0.tgz",
+  "_shasum": "59ca6a8ab73218e1b75282abc94814253812031a",
+  "_spec": "cordova-plugin-ezar-videooverlay",
+  "_where": "C:\\Users\\dyyl\\Desktop\\chullaapp",
+  "author": {
+    "name": "Wayne Parrott",
+    "email": "wayne@ezartech.com",
+    "url": "https://ezartech.com"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-ezar-videooverlay",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Overlay the Cordova webview onto a live video stream",
+  "homepage": "https://ezartech.com",
+  "keywords": [
+    "augmented reality",
+    "video preview",
+    "overlay",
+    "computer vision"
+  ],
+  "license": "modified MIT License, see http://ezartech.com/ezarstartupkit-license",
+  "name": "cordova-plugin-ezar-videooverlay",
+  "version": "1.0.0"
+}

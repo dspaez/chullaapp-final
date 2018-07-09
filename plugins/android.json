@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.chullaapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.example.chullaapp"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.example.artourquito"
+    },
+    "cordova-plugin-ezar-videooverlay": {
+      "PACKAGE_NAME": "com.example.artourquito"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.example.artourquito"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.example.artourquito"
+    }
+  },
+  "dependent_plugins": {}
+}
